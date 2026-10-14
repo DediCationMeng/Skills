@@ -23,9 +23,13 @@ Skills/
 | `elm-literature-pipeline` | 工程活体材料（ELMs）/ 生物3D打印 / 微生物活药 | 基准版（系列母本） | [elm-literature-pipeline/README.md](elm-literature-pipeline/README.md) |
 | `gut-dd-literature-pipeline` | 肠道靶向药物递送载体 | 2026-10-09（由 ELM 版派生） | [gut-dd-literature-pipeline/README.md](gut-dd-literature-pipeline/README.md) |
 | `plasmonics-literature-pipeline` | 等离激元纳米材料（LSPR/SERS/光热诊疗） | 2026-10-09（由 ELM 版派生） | [plasmonics-literature-pipeline/README.md](plasmonics-literature-pipeline/README.md) |
+| `liulab-literature-pipeline` | LiuLab 课题组方向（消化道疾病/肠道微生物/工程菌/口服递药） | 2026-10（独立定制，非派生） | [liulab-literature-pipeline/README.md](liulab-literature-pipeline/README.md) |
+| `literature-download` | 学术文献 PDF 批量下载与归档（下载域） | 2026-10（独立定制） | [literature-download/README.md](literature-download/README.md) |
 
-三者同属「文献检索 → 处理 → 归档」流水线家族，脚本同构（前缀 `elm_` / `gdd_` / `plm_`），
+前三者同属「文献检索 → 处理 → 归档」流水线家族，脚本同构（前缀 `elm_` / `gdd_` / `plm_`），
 仅检索关键词、期刊白名单与归档仓库不同，互相独立、互不影响。
+`liulab-literature-pipeline` 与 `literature-download` 为**独立定制 skill**（各自独立维护，不与上述家族混同）：
+前者管 LiuLab 方向检索回顾，后者管全文 PDF 下载归档，二者仅通过文献库项目/元数据协作。
 
 ## 安装使用
 
